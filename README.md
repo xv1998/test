@@ -99,7 +99,7 @@ SqlUtil 实例属性和方法
 
 - [`sqlutil.dbConfig` ](#newSqlUtil)db 配置
 - [`sqlutil.ssh`](#newSqlUtil)ssh 配置
-- [`sqlutil.format()` ](#translateSQL)转义 sql 语句，讲输入字符转为安全字符串
+- [`sqlutil.format()` ](#format)转义 sql 语句，讲输入字符转为安全字符串
 - [`sqlutil.escape()` ](#escape)转义某个字符串字段
 - [`sqlutil.escapeId()`](#escapeId) 转义表字段
 - [`sqlutil.query()` ](#query)手动查询 sql 方法
@@ -142,7 +142,7 @@ const mySql = new SqlUtil({
 
 
 
-### <a id="translateSQL>">转义 SQL 语句</a>
+### <a id="format>">转义 SQL 语句</a>
 
 `??` 为字段或表名，`?` 为具体字段值，需要转义的字段
 
