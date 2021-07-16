@@ -142,7 +142,7 @@ const mySql = new SqlUtil({
 
 
 
-### <a id="format>">转义 SQL 语句</a>
+### <a id="format">转义 SQL 语句</a>
 
 `??` 为字段或表名，`?` 为具体字段值，需要转义的字段
 
